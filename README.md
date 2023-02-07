@@ -2,7 +2,7 @@
 
 This project is all about react native components, that are no longer supported or not built in to be used in the app. Components like checkbox, radio selector, group of radio selectors...etc.
 
-Note this is only basic code no extra dependencies are needed
+Note this is only basic code no extra dependencies are needed.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ Open a Terminal in the project root and run:
 npm install
 ```
 
-Or if you want to create your own project just follow the steps in react native doc.
+Or if you want to create your own project just follow the steps found in react native doc.
 
 In this project I used expo
 ```sh
