@@ -1,17 +1,32 @@
-# DevProjects - Countdown mobile app
+# React Native Simple Components
 
-This is an open source project from [DevProjects](http://www.codementor.io/projects). Feedback and questions are welcome!
-Find the project requirements here: [Countdown mobile app](https://www.codementor.io/projects/mobile/countdown-mobile-app-bjzn08zcon)
+This project is all about react native components, that are no longer supported or not built in to be used in the app. Components like checkbox, radio selector, group of radio selectors...etc.
 
-## Tech/framework used
-Built with ___
+Note this is only basic code no extra dependencies are needed
 
-## Screenshots and demo
-Screenshots of your app and/or a link to your live demo
+## Prerequisites
+
+- [Node.js > 12](https://nodejs.org)
+- [react native 0.70](https://reactnative.dev/docs/0.70/environment-setup)
+- [Expo](https://docs.expo.dev/)
+- [Cocoapods 1.10.1](https://cocoapods.org)
+- [JDK > 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
+- [Android Studio and Android SDK](https://developer.android.com/studio)
 
 ## Installation
-Instructions for other developers on how to install and run your code on their local environment.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
-Most open source projects use the MIT license. Feel free to choose whichever license you prefer.
+Open a Terminal in the project root and run:
+
+```sh
+npm install
+```
+
+Or if you want to create your own project just follow the steps in react native doc.
+
+In this project I used expo
+```sh
+yarn create expo-app elements
+```
+
+
+We're done! Now you can build and run the app on your device/simulator.
