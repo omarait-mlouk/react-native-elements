@@ -20,7 +20,7 @@ const TestSingleCheckbox = () => {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Single Radio Button</Text>
+            <Text style={styles.title}>Single Checkbox Button</Text>
             <CheckboxButton 
                 title='Arabic' 
                 isSelected={isSelected}

@@ -9,10 +9,10 @@ import TestGroupCheckbox from './src/screens/checkboxScreen/TestGroupCheckbox';
 const App = () => {
   return (
     <>
-      <TestSingleRadio />
-      <TestGroupRadio />
-      {/* <TestSingleCheckbox />
-      <TestGroupCheckbox /> */}
+      {/* <TestSingleRadio />
+      <TestGroupRadio /> */}
+      <TestSingleCheckbox />
+      <TestGroupCheckbox />
     </>
   )
 }
