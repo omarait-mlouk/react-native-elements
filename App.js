@@ -1,12 +1,18 @@
 import React from 'react'
-import TestSingleRadio from './src/screens/TestSingleRadio'
-import TestGroupRadio from './src/screens/TestGroupRadio'
+// radio
+import TestSingleRadio from './src/screens/radioScreen/TestSingleRadio';
+import TestGroupRadio from './src/screens/radioScreen/TestGroupRadio';
+// checkbox
+import TestSingleCheckbox from './src/screens/checkboxScreen/TestSingleCheckbox';
+import TestGroupCheckbox from './src/screens/checkboxScreen/TestGroupCheckbox';
 
 const App = () => {
   return (
     <>
       <TestSingleRadio />
       <TestGroupRadio />
+      {/* <TestSingleCheckbox />
+      <TestGroupCheckbox /> */}
     </>
   )
 }

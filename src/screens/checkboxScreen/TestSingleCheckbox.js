@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React, { useState } from 'react'
-import RadioButton from '../components/RadioButton'
+import CheckboxButton from '../../components/checkbox/CheckboxButton'
 
-const TestSingleRadio = () => {
+const TestSingleCheckbox = () => {
     // by default the radio button not selected
     const [isSelected, setIsSelected] = useState(false)
     
@@ -11,21 +11,27 @@ const TestSingleRadio = () => {
         setIsSelected(!isSelected)
     }
 
+    // customize icon style (color, size)
+    const iconStyle = {
+        activeColor: 'blue', // when selected
+        inActiveColor: 'gray', // when not selected
+        size: 20,
+    }
+
     return (
         <View style={styles.container}>
             <Text style={styles.title}>Single Radio Button</Text>
-            <RadioButton 
+            <CheckboxButton 
                 title='Arabic' 
-                isSelected={isSelected} 
-                color='gray' 
-                size={20} 
+                isSelected={isSelected}
                 onPress={onRadioHandler}
+                iconStyle={iconStyle}
             />
         </View>
     )
 }
 
-export default TestSingleRadio
+export default TestSingleCheckbox
 
 const styles = StyleSheet.create({
     container: {

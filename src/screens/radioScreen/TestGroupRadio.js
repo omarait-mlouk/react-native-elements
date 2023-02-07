@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React, { useState } from 'react'
-import RadioGroup from '../components/RadioGroup'
+import RadioGroup from '../../components/radio/RadioGroup'
 
 const LANGUAGES = [
     { key: 'ar', language: 'Arabic' },
@@ -19,7 +19,8 @@ const TestGroupRadio = () => {
 
     // customize icon style (color, size)
     const iconStyle = {
-        color: 'gray',
+        activeColor: 'blue', // when selected
+        inActiveColor: 'gray', // when not selected
         size: 20,
     }
 

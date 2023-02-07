@@ -16,7 +16,7 @@ const RadioGroup = ({ selectedOption, data, onSelect, iconStyle }) => {
                         <Ionicons 
                             name={item.language === selectedOption ? "ios-radio-button-on" : "ios-radio-button-off"} 
                             size={iconStyle.size} 
-                            color={iconStyle.color}
+                            color={item.language === selectedOption ? iconStyle.activeColor : iconStyle.inActiveColor}
                         />
                         <Text style={styles.title}>{item.language}</Text>
                     </Pressable>
