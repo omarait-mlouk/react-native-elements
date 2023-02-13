@@ -9,7 +9,6 @@ Note this is only basic code no extra dependencies are needed.
 - [Node.js > 12](https://nodejs.org)
 - [react native 0.70](https://reactnative.dev/docs/0.70/environment-setup)
 - [Expo](https://docs.expo.dev/)
-- [Cocoapods 1.10.1](https://cocoapods.org)
 - [JDK > 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)
 - [Android Studio and Android SDK](https://developer.android.com/studio)
 
